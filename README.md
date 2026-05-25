@@ -18,6 +18,6 @@ Each routing was creating by hand soldering lengths of single-core wire between 
 Boards were connected by using 2.54mm-spaced throughhole headers. While not extremely stable and required careful handling when connecting and disconnecting modules, this made it very straight forward to put together initially.
 ## Programming
 The board was programmed using a Xgecu TL866ii usb chip programmer (which involved physically removing the ROM IC from its socket and clamping into the programmer). The EEPROM chip used was a 64Kbit Atmel at28c64b. A 27C64 UV erasable EPROM was also used at one point for the fun of it.\
-A basic LED output binary counter program was written in assembly at the time, but required manual clock pulsing to be slow enough to see.\
+A basic LED output binary counter program was written in assembly at the time, but required manual clock pulsing to be slow enough to see.
 ## Revisiting (2026)
 
